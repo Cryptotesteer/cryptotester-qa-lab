@@ -1,0 +1,41 @@
+# UNEXPECTED-001: Like State Reverts After Being Removed
+
+**Product:** Monad Feet  
+**Feature:** Post Likes  
+**Issue Type:** Unexpected Behaviour  
+**Severity:** Medium  
+**Status:** Observed During Testing  
+
+## Description
+
+During testing, the like state did not remain consistent after a user unliked a post.
+
+When the user removed a like, the like appeared to disappear temporarily. However, after waiting or refreshing the page, the like returned.
+
+## Steps to Reproduce
+
+1. Open a post that has been liked.
+2. Click the like button to remove the like.
+3. Observe the like state immediately after clicking.
+4. Wait for some time or refresh the page.
+5. Observe the like state again.
+
+## Expected Behaviour
+
+After a user unlikes a post, the post should remain unliked unless the user likes it again.
+
+## Actual Behaviour
+
+The like disappeared temporarily but later returned after waiting or refreshing the page.
+
+## Impact
+
+Users may be unsure whether their action was successful. The inconsistent state can reduce confidence in the like feature.
+
+## Evidence
+
+Evidence can be added here if screenshots or recordings are available.
+
+## QA Note
+
+This is documented as unexpected behaviour observed during testing. It has not been classified as a confirmed software bug because the intended behaviour and underlying cause have not been established.
