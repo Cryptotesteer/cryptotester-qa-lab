@@ -136,6 +136,54 @@ Documentation:
 - [Banana Bug Reports](bug-reports/)
 - [Banana QA Case Study](case-studies/banana-qa-case-study.md)
 
+- ### Monad Feet
+
+Web3 application tested through manual exploratory testing, focusing on user interactions, wallet-related flows, and on-chain behaviour.
+
+Testing covered:
+
+- Application navigation
+- User interactions
+- Wallet-related flows
+- Like and unlike behaviour
+- Social interaction behaviour
+- Exploratory testing
+- Expected vs actual behaviour
+- Product observations
+- UX improvement opportunities
+
+Documentation:
+
+- [Monad Feet QA Case Study](case-studies/monad-feet-qa-case-study.md)
+
+### Mako Market
+
+Prediction market platform tested through manual exploratory testing.
+
+Testing covered:
+
+- Market discovery and navigation
+- Market rules and settlement conditions
+- YES/NO betting flows
+- Stake and payout previews
+- Wallet funding and input validation
+- User positions and portfolio visibility
+- Bitcoin prediction rounds
+- Market chart behaviour
+- Comments and replies
+- Leaderboard filters
+- Market sharing
+- Market Intel category filters
+- UX observations and product improvement opportunities
+
+Documentation:
+
+- [Mako Market Test Plan](test-plans/mako-market-test-plan.md)
+- [Mako Market Test Cases](test-cases/mako-market-test-cases.md)
+- [Mako Market Exploratory Session](exploratory-sessions/mako-market-exploratory-session.md)
+- [Mako Market Observations](bug-reports/mako-market-observations.md)
+- [Mako Market QA Case Study](case-studies/mako-market-qa-case-study.md)
+
 ## Product Improvement
 
 My testing does not stop at identifying defects.
